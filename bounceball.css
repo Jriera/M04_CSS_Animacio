@@ -1,0 +1,116 @@
+
+
+.box{
+    position: relative;
+    width: 1000px;
+    height: 750px;
+    margin:auto;
+	padding: 0;
+	background: #262626;
+}
+
+
+
+.ball {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background: #c9f364;
+	border-radius: 50%;
+    left: 0;
+    top: 0;
+	animation: x 4s  infinite linear,y 4s infinite  cubic-bezier(0.47, -0.03, 0.57, 0.90),smash 4s infinite linear
+    
+}
+
+
+/* cubic-bezier(0.6, 0.6, 0.5, 0.9); cubic-bezier(0.8, 0.7, 0.6, 1); cubic-bezier( 0.27, 0.77, 0.95, 0.99 )*/
+
+ @keyframes x {
+     10%{
+        left: 150px;
+    }
+
+    20%{
+        left: 250px;
+    }
+
+    30%{
+        left: 350px;
+    }
+    40%{
+        left: 450px;
+    }
+
+    50%{
+        left: 550px;
+    }
+    60%{
+        left: 650px;
+    }
+    70%{
+        left: 750px;
+    }
+    80%{
+        left: 850pxx;
+    }
+
+    90%{
+        left: 900px;
+    }
+    100%{
+        left: 810px;
+    }
+    
+}  
+
+@keyframes y {
+    10%{
+        top: 655px;
+        transform: scale(1.2,0.9);
+    }
+    20%{
+        top: 150px;
+        transform: scale(1,1);
+    }
+
+    30%{
+        top: 655px;
+        transform: scale(1.1,0.9);
+    }
+
+    40%{
+        top: 300px;
+        transform: scale(1,1);
+    }
+    50%{
+        top: 655px;
+        transform: scale(1.1,0.9);
+        
+    }
+
+    60%{
+        top: 450px;
+        transform: scale(1,1);
+    }
+    70%{
+        top: 655px;
+        transform: scale(1,0.9);
+    }
+
+    80%{
+        top: 600px;
+        transform: scale(1,1);
+    }
+
+    90%{
+        top: 655px;
+        transform: scale(1,0.9);
+    }
+    100%{
+        top:650px;
+        transform: scale(1,1);
+    }
+
+}
+
