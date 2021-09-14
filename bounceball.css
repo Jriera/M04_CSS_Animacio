@@ -56,13 +56,34 @@
  @keyframes x {
      0%{
          left: 0px;
+         transform: scale(1,1.2);
+     }
+     1%{
+        transform: scale(1,1);
+     }
+
+     9%{
+        transform: scale(1,1);
      }
     10%{
         left: 250px;
+        transform: scale(1.2,1);
+    }
+
+    11%{
+        transform: scale(1,1);
+    }
+
+    19%{
+        transform: scale(1,1);
     }
 
     20%{
         left:400px;
+        transform: scale(1.2,1);
+    }
+    21%{
+        transform: scale(1,1);
     }
 
     35%{
@@ -72,31 +93,54 @@
     40%{
         
     }
+    49%{
+        transform: scale(1,1);
+    }
 
     50%{
         left:850px;
+        transform: scale(1,1.2);
+    }
+    51%{
+        transform: scale(1,1);
     }
 
     55%{
         left: 750px;
+        transform: scale(1.2,1)
+        
+    }
+    56%{
+        transform: scale(1,1)
     }
 
     75%{
         left: 425px;
     }
+    89%{
+        transform: scale(1,1)
+    }
     90%{
         left:275px;
+        transform: scale(1.2,1)
+    }
+    91%{
+        transform: scale(1,1)
+    }
+    99%{
+        transform: scale(1,1);
     }
 
     100%{
         left: 0px;
+        transform: scale(1,1.2);
     }
 }  
 
 @keyframes y {
     0%{
         top: 200px;
-        transform: rotate(0deg);
+        
     }
    
     10%{
@@ -116,7 +160,7 @@
 
     50%{
         top: 500px;
-        transform: rotate(360deg);
+        
     }
 
     55%{
